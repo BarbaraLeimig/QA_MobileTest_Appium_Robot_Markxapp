@@ -1,7 +1,7 @@
 from robot.api.deco import keyword
 from pymongo import MongoClient
 
-client = MongoClient('mongodb+srv://barbaraleimig:aluno123@cluster0.uhy6h.mongodb.net/markX?retryWrites=true&w=majority&appName=Cluster0')
+client = MongoClient('mongodb+srv://<user>g:<password>@cluster0.uhy6h.mongodb.net/markX?retryWrites=true&w=majority&appName=Cluster0')
 db = client['markX']
 
 @keyword('Remover tarefa do banco de dados')
