@@ -2,4 +2,4 @@
 Documentation     Variáveis globais
 
 *** Variables ***
-${API_IP}        192.168.0.36
+${API_IP}        000.000.0.00
